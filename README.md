@@ -8,7 +8,8 @@
 #### Average Case: The average case is when the pivot point is not the median, maximum, or minimum. The average runtime will be O(nlogn). 
 
 ## Background
-#### We use partition to split the array based on the pivot point. All values to the left of the pivot are less than the pivot and all values to the right of the pivot are greater than the pivot. Then, 
+#### We use partition to split the array based on the pivot point. All values to the left of the pivot are less than the pivot and all values to the right of the pivot are greater than the pivot. Then, the values to the left of the pivot and the right of the pivot are sorted simultaneously by partition.
+
 ## Experiment Methodology
 
 ## Measurements and Analysis 
