@@ -1,6 +1,6 @@
-## Team Diamond Strokers -- Simon, Maxwell, Addison </h6> 
-## APCS pd2 </br>
-## L #01: What Does the Data Say? </h4> </br>
+## Team Diamond Strokers -- Simon, Maxwell, Addison
+## APCS pd2
+## L #01: What Does the Data Say? 
 
 ## Hypothesis
 #### Best Case: The best case is when the pivot point is the median. The runtime of the best case is O(nlogn) because partition runs in O(n) time and quick sort is a divide and conquer algorithm. Both of these combined results in a runtime O(nlogn). 
@@ -8,7 +8,7 @@
 #### Average Case: The average case is when the pivot point is not the median, maximum, or minimum. The average runtime will be O(nlogn). 
 
 ## Background
-
+#### We use partition to split the array based on the pivot point. All values to the left of the pivot are less than the pivot and all values to the right of the pivot are greater than the pivot. Then, 
 ## Experiment Methodology
 
 ## Measurements and Analysis 
