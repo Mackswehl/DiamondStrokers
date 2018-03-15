@@ -14,7 +14,7 @@
 #### We started with an array size of 100000. From there, we randomized the elements in the array. We measured the time it took to sort the array via quicksort and we repeated this until we got to an array size of 20000000, incrementing by 100000 every time. 
 
 ## Measurements and Analysis 
-#### From our measurements we saw that quicksort had a runtime of O(nlogn).
+#### From our measurements we saw that our test came with results that quicksort looks like it has a linear runtime. However, we know that there is no sort algorithm that has a sort time of O(n) as of yet. 
 
 
 ## Pivot Selection/Data Arangement
