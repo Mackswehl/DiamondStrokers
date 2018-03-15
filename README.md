@@ -11,11 +11,15 @@
 #### We use partition to split the array based on the pivot point. All values to the left of the pivot are less than the pivot and all values to the right of the pivot are greater than the pivot. Then, the values to the left of the pivot and the right of the pivot are sorted simultaneously by partition.
 
 ## Experiment Methodology
+#### We started with an array size of 100000. From there, we randomized the elements in the array. We measured the time it took to sort the array via quicksort and we repeated this until we got to an array size of 20000000, incrementing by 100000 every time. 
 
 ## Measurements and Analysis 
+#### From our measurements we saw that quicksort had a runtime of O(nlogn).
+
 
 ## Pivot Selection/Data Arangement
 #### If the pivot is the minimum or maximum or close to the minimum/maximum, the runtime of QuickSort will be O(n^2) or near it. 
 #### If the pivot is close to the median or is the median, the runtime of QuickSort will be O(nlogn)
+#### When the array was sorted in ascending order it sorted very quickly, the runtime was O(nlogn). 
 
 
